@@ -11,15 +11,17 @@ const salaoDeBelezaSchema = new mongoose.Schema({
         required: true
     },
     endereço: {
-        type: String,
+        type: String,  
         required: true
     },
     estado: {
         type: String,
+        uppercase: true,
         required: true
     },
     cidade: {
         type: String,
+        uppercase: true,
         required: true
     },
     bairro: {
@@ -27,8 +29,7 @@ const salaoDeBelezaSchema = new mongoose.Schema({
         required: true
     },
     numero: {
-        type: Number,
-        required: true
+        type: String,
     },
     CEP: {
         type: String,

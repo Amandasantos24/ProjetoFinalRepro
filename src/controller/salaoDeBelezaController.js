@@ -44,6 +44,119 @@ const criarSalao = async (req, res) => {
     });
 
 
+      if(!novoSalao.nome) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o nome do salão!"
+        })
+      }
+
+      if(!novoSalao.CNPJ) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o CNPJ do salão!"
+        })
+      }
+
+
+      if(novoSalao.CNPJ.length > 18 || novoSalao.CNPJ.length < 18) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o CNPJ válido",
+          //detalhar posteriormente essa parte
+          mensagem_exemplo: "xx.xxx.xxx/xxxx-xx"
+        })
+      }
+
+      if(!novoSalao.endereço) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o endereço do salão!"
+        })
+      }
+
+      if(novoSalao.estado !== "PERNAMBUCO") {
+        return res.status(406).json({
+          mensagem: "Infelizmente, ainda só são aceitos salões do estado de Pernambuco!"
+        })
+      }
+
+      
+      if(novoSalao.cidade !== "RECIFE") {
+        return res.status(406).json({
+          mensagem: "Infelizmente, ainda só são aceitos salões da cidade de Recife!"
+        })
+      }
+
+      if(!novoSalao.bairro) {
+        return res.status(406).json({
+          mensagem: "Por favor informe um bairro!"
+        })
+      }
+
+
+      if(novoSalao.numero.length > 4) {
+        return res.status(406).json({
+          mensagem: "Por favor informe um número válido!",
+          //detalhar posteriormente essa parte
+          mensagem_exemplo: "Só são aceitos no máximo 4 números"
+        })
+      }
+
+      if(!novoSalao.CEP) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o CEP do salão!"
+        })
+      }
+
+
+      if(novoSalao.CEP.length > 9 || novoSalao.CEP.length < 9) {
+        return res.status(406).json({
+          mensagem: "Por favor informe um CEP válido",
+          //detalhar posteriormente essa parte
+          mensagem_exemplo: "xxxxx-xxx" 
+        })
+      }
+
+      if(!novoSalao.telefone) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o número de telefone do salão!"
+        })
+      }
+
+
+      if(novoSalao.telefone.length > 15 || novoSalao.telefone.length < 15) {
+        return res.status(406).json({
+          mensagem: "Por favor informe um número de telefone válido",
+          //detalhar posteriormente essa parte
+          mensagem_exemplo: "(xx) xxxxx-xxxx"
+        })
+      }
+
+      if(!novoSalao.email) {
+        return res.status(406).json({
+          mensagem: "Por favor informe o email do salão!"
+        })
+      }
+
+      if(novoSalao.tem_parceria_com_hospital == undefined) {
+        return res.status(406).json({
+          mensagem: "Erro! Só são cadastros salões com parceria com hospital!",
+          mensagem_exemplo: "Entre com true ou false"
+        })
+      }
+
+      if(novoSalao.tem_parceria_com_ong == undefined) {
+        return res.status(406).json({
+          mensagem: "Erro! Só são cadastros salões com parceria com ong!",
+          mensagem_exemplo: "Entre com true ou false"
+        })
+      }
+
+      if(novoSalao.tem_parceria_com_hospital == false || novoSalao.tem_parceria_com_ong == false) {
+          return res.status(406).json({
+            mensagem: "Só podem cadastros salões que realizam doações!"
+          })
+
+      }
+
+
       const salvarSalao = await novoSalao.save();
       res.status(201).json({
         message: `O salão ${novoSalao.nome} foi criado com sucesso!`,
