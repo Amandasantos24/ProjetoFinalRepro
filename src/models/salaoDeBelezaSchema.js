@@ -58,7 +58,16 @@ const salaoDeBelezaSchema = new mongoose.Schema({
     nome_ong: {
         type: String,
         required: true
+    },
+    termos_de_uso: {
+        type: Boolean,
+        required: true
     }
+
 }, { timestamps: true })
+
+
+
+
 
 module.exports = mongoose.model("salaoDeBeleza", salaoDeBelezaSchema)

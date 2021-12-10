@@ -40,7 +40,8 @@ const criarSalao = async (req, res) => {
         tem_parceria_com_hospital: req.body.tem_parceria_com_hospital,
         tem_parceria_com_ong: req.body.tem_parceria_com_ong,
         nome_hospital: req.body.nome_hospital,
-        nome_ong: req.body.nome_ong
+        nome_ong: req.body.nome_ong,
+        termos_de_uso: req.body.termos_de_uso
     });
 
 
@@ -121,7 +122,7 @@ const criarSalao = async (req, res) => {
       }
 
 
-      if(novoSalao.telefone.length > 15 || novoSalao.telefone.length < 15) {
+      if(novoSalao.telefone.length > 14 || novoSalao.telefone.length < 14) {
         return res.status(406).json({
           mensagem: "Por favor informe um número de telefone válido",
           //detalhar posteriormente essa parte
@@ -149,13 +150,61 @@ const criarSalao = async (req, res) => {
         })
       }
 
-      if(novoSalao.tem_parceria_com_hospital == false || novoSalao.tem_parceria_com_ong == false) {
+      if(novoSalao.tem_parceria_com_hospital == false && novoSalao.tem_parceria_com_ong == false) {
           return res.status(406).json({
             mensagem: "Só podem cadastros salões que realizam doações!"
           })
 
       }
 
+      if(novoSalao.tem_parceria_com_hospital == true) {
+        if(!novoSalao.nome_hospital) {
+          return res.status(406).json({
+            mensagem: "Informe o nome do hospital que o seu salão tem parceria!"
+          })
+        }
+      }
+
+
+      if(novoSalao.tem_parceria_com_ong == true) {
+        if(!novoSalao.nome_ong) {
+          return res.status(406).json({
+            mensagem: "Informe o nome da ong que o seu salão tem parceria!"
+          })
+        }
+      }
+
+      const { CNPJ } = req.body;
+    const salaoDeBelezaExiste = await SalaoDeBelezaSchema.findOne({
+      CNPJ,
+    });
+    if (salaoDeBelezaExiste) {
+      return res.status(406).json({
+        //ajeitar essa mensagem depois
+        mensagem:"Esse CNPJ já foi cadastrado",
+      });
+    }
+
+
+    const { email } = req.body;
+    const salao_De_Beleza_Existe = await SalaoDeBelezaSchema.findOne({
+      email,
+    });
+    if (salao_De_Beleza_Existe) {
+      return res.status(406).json({
+        //ajeitar essa mensagem depois
+        mensagem:"Esse email já foi cadastrado",
+      });
+    }
+
+
+      if (!novoSalao.termos_de_uso) {
+        return res.status(406).json({
+          messagem: "Desculpe, só podem ser cadastrados salões que concordem com nossos termos de uso!"
+        });
+      }
+  
+      
 
       const salvarSalao = await novoSalao.save();
       res.status(201).json({
@@ -179,8 +228,6 @@ const criarSalao = async (req, res) => {
         salaoEncontrado.nome = req.body.nome || salaoEncontrado.nome;
         salaoEncontrado.CNPJ = req.body.CNPJ || salaoEncontrado.CNPJ;
         salaoEncontrado.endereço = req.body.endereço || salaoEncontrado.endereço;
-        salaoEncontrado.estado = req.body.estado || salaoEncontrado.estado;
-        salaoEncontrado.cidade = req.body.cidade || salaoEncontrado.cidade;
         salaoEncontrado.bairro = req.body.bairro || salaoEncontrado.bairro;
         salaoEncontrado.numero = req.body.numero || salaoEncontrado.numero;
         salaoEncontrado.CEP = req.body.CEP || salaoEncontrado.CEP;
@@ -192,8 +239,61 @@ const criarSalao = async (req, res) => {
         salaoEncontrado.nome_ong = req.body.nome_ong || salaoEncontrado.nome_ong;
       
     }
-    console.log(salaoEncontrado);
+
+    if(salaoEncontrado.numero.length > 4) {
+      return res.status(406).json({
+        mensagem: "Por favor informe um número válido!",
+        //detalhar posteriormente essa parte
+        mensagem_exemplo: "Só são aceitos no máximo 4 números"
+      })
+    }
+
+    if(salaoEncontrado.CNPJ.length > 18 || salaoEncontrado.CNPJ.length < 18) {
+      return res.status(406).json({
+        mensagem: "Por favor informe o CNPJ válido",
+        //detalhar posteriormente essa parte
+        mensagem_exemplo: "xx.xxx.xxx/xxxx-xx"
+      })
+    }
+
+    if(salaoEncontrado.CEP.length > 9 || salaoEncontrado.CEP.length < 9) {
+      return res.status(406).json({
+        mensagem: "Por favor informe um CEP válido",
+        //detalhar posteriormente essa parte
+        mensagem_exemplo: "xxxxx-xxx" 
+      })
+    }
+
+    if(salaoEncontrado.telefone.length > 14 || salaoEncontrado.telefone.length < 14) {
+      return res.status(406).json({
+        mensagem: "Por favor informe um número de telefone válido",
+        //detalhar posteriormente essa parte
+        mensagem_exemplo: "(xx) xxxxx-xxxx"
+      })
+    }
+
+    if(salaoEncontrado.tem_parceria_com_hospital !== true) {
+      if(salaoEncontrado.nome_hospital) {
+        console.log(salaoEncontrado.tem_parceria_com_hospital)
+        console.log(salaoEncontrado.nome_hospital)
+        return res.status(406).json({
+          //mudar essa mensagem depois
+          mensagem: "Se não tem parceria com hospital não informe nome do hospital!"
+        })
+      }
+    }
+
+
+    if(salaoEncontrado.tem_parceria_com_ong == true) {
+      if(!salaoEncontrado.nome_ong) {
+        return res.status(406).json({
+          mensagem: "Informe o nome da ong que o seu salão tem parceria!"
+        })
+      }
+    }
     
+
+
     const salvarSalao = await salaoEncontrado.save();
       res.status(200).json({
         message: `O salão ${salvarSalao.nome} foi atualizado com sucesso!`,
