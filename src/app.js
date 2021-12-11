@@ -6,6 +6,7 @@ const database = require("./database/mongoConfig")
 
 
 const salaoDeBelezaRoutes = require("./routes/salaoDeBelezaRoutes")
+const salaoAutenRoutes = require("./routes/salaoAutenRoutes");
 
 const app = express()
 
@@ -14,6 +15,7 @@ app.use(cors())
 app.use(express.json())
 
 app.use("/salaoDeBeleza", salaoDeBelezaRoutes)
+app.use("/salaoDeBeleza", salaoAutenRoutes);
 
 
 
