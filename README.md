@@ -37,11 +37,15 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 <br>
 
 ## - Funcionalidades
-> Cadastrar salões de beleza que cortam cabelos para doação;
-> Cadastrar ONGs que produzem perucas para mulheres com câncer;
-> Aumentar a facilidade de pessoas que querem cortar e doar o próprio cabelo;
-> Aumentar a confiança da cliente que está disposta a esse tipo de serviço, garantindo que o produto chegará em quem precisa;
-> Criar um cartão fidelidade para a cliente que cortar o cabelo em salões que têm parceria, gerando cortesias.
+[X] Cadastrar salões que tenham parcerias com ONGs e
+[X] Cadastrar salões que tenham parcerias com hospitais
+[X] Localizar salões em parcerias com ONGs e/ou hospitais
+[X] Atualizar cadastros dos salões 
+[X] Deletar salões que não tenham parcerias
+[X] Cadastrar salões de beleza que cortam cabelos para doação
+[X] Cadastrar ONGs que produzem perucas para mulheres com câncer
+[X] Aumentar a facilidade de pessoas que querem cortar e doar o próprio cabelo
+[X] Aumentar a confiança da cliente que está disposta a esse tipo de serviço, garantindo que o produto chegará em quem precisa
 <br>
 
 ## - Tecnologias utilizadas nesse projeto
@@ -77,12 +81,12 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 
 ## - Acessando as rotas dos salões de beleza pelos CRUD do projeto:
 
-Método HTTP    ||                    Rota                        ||              Retorno
-
-GET ||           /http://localhost:5005/salaoDeBeleza/listarSalao || Acessa todos os salões
-POST ||          /http://localhost:5005/salaoDeBeleza/criarSalao  || Cadastra novos salões
-PUT ||          /http://localhost:5005/salaoDeBeleza/atualizarSalao/:id || Atualiza um salão por vez
-DELETE ||       /http://localhost:5005/salaoDeBeleza/excluirSalao/:id   || Exclui um salão por vez
+| Função | Método | Rota |
+|---------|--------|------|
+| Acesso aos salões | GET | `/salaoDeBeleza/listarSalao` |
+| Cadastro de novos salões | POST | `/salaoDeBeleza/criarSalao` |
+| Atualização de salão por id | PUT | `/salaoDeBeleza/atualizarSalao/:id` |
+| Remoção de salão por id | DELETE | `/salaoDeBeleza/excluirSalao/:id` |
 
 <br>
 
@@ -91,7 +95,9 @@ DELETE ||       /http://localhost:5005/salaoDeBeleza/excluirSalao/:id   || Exclu
 
 ## - Aprendizados com o projeto
 
-*falar sobre API e CRUD*
+Neste projeto aprendemos a criar uma API com um CRUD, que são quatro funções básicas para manipular dados em um sistema que utilize banco de dados. Sendo eles: criar (CREAT), ler (READ), atualizar (UPDATE) e deletar (DELETE).
+
+melhorar isso aqui
 
 <br>
 
@@ -99,6 +105,7 @@ DELETE ||       /http://localhost:5005/salaoDeBeleza/excluirSalao/:id   || Exclu
 
 ## - Melhorias para o projeto
 
+- procurar por bairro
 - tornar um projeto não só social como comercial,
 - estender para outros locais,
 - melhorar o código para poder procurar por local e bairro,
