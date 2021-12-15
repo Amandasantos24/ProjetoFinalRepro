@@ -11,7 +11,15 @@
 
 ## - O projeto
 
-- falar sobre o projeto e etc
+- Este projeto é um trabalho final para conclusão do bootcamp da {reprograma} para formação em programação back-end. Ele surgiu a partir do meu grande interesse pela área da estética, principalmente quando é sobre cabelo.
+E sabendo que o cabelo é uma parte da nossa identidade visual e da nossa personalidade, pensei em juntar o que me agrada com uma intenção de ajudar outras mulheres.
+Baseado nas minhas experiências de ir em salões de beleza para cortar o meu cabelo e muitas vezes querer doa-lo para 
+-falar sobre querer doar o cabelo
+-falar sobre amigas que não doam o cabelo
+-falar sobre aproveitar
+-falar sobre o cancer de mama e mulheres que perdem o cabelo
+-não ver muito isso em recife
+- juntar salão e hospitais
 
 
 <br>
@@ -23,7 +31,7 @@
 
 
 ## - Objetivo
-> > Unir em parceria salões de beleza que tenham parcerias com ONGs e/ou hospitais que recebam cabelos que foram doados quando foram cortadas e que futuramente irão virar peruca para mulheres que perderam o cabelo vítimas de câncer de mama.
+> > Parceria entre salões de beleza e instituições que produzam perucas com cabelos doados para mulheres que passaram perda de cabelo devivo ao câncer de mama.
 <br>
 
 <br>
