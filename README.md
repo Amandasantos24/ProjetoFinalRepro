@@ -11,15 +11,12 @@
 
 ## - O projeto
 
-- Este projeto é um trabalho final para conclusão do bootcamp da {reprograma} para formação em programação back-end. Ele surgiu a partir do meu grande interesse pela área da estética, principalmente quando é sobre cabelo.
-E sabendo que o cabelo é uma parte da nossa identidade visual e da nossa personalidade, pensei em juntar o que me agrada com uma intenção de ajudar outras mulheres.
-Baseado nas minhas experiências de ir em salões de beleza para cortar o meu cabelo e muitas vezes querer doa-lo para 
-- falar sobre querer doar o cabelo
-- falar sobre amigas que não doam o cabelo
-- falar sobre aproveitar
-- falar sobre o cancer de mama e mulheres que perdem o cabelo
-- não ver muito isso em recife
-- juntar salão e hospitais
+O projeto tem o nome de "Madeixa-aqui: salão solidário" e foi fruto da ideia de juntar uma coisa que eu amo e faz parte do meu dia a dia e uma causa social: cabelos + doação de cabelos para mulheres em tratamento contra o câncer de mama. Segundo dados divulgados pelo Instituto Nacional de Câncer (INCA) no ano de 2014, o câncer de mama foi o tipo mais frequente de câncer em mulheres no Brasil e no mundo. (SBPatologia). E uma consequência do tratamento dessa doença, é a perda de cabelo devivo a quimioterapia. E por saber que o cabelo faz parte da personalidade/identidade e o quanto a perca dele pode mexer diretamente na auto-estima da mulher e visando diminuir a dificuldade desse momento delicado e aumentar a acessabilidade, existem iniciativas de ONGs e hospitais que aceitam doações de cabelo humano, recém-cortado, para a produção de perucas e/ou apliques para essas mulheres. Além disso, por que não poder reaproveitar esse cabelo que iria para o lixo e poder usá-lo para ao menos melhorar a auto-estima de outra pessoa? 
+
+
+Mas como moradora de Recife - Pernambuco, toda vez que vou cortar meu cabelo e quero realizar esse tipo de ação já senti e ainda sinto sinto dificuldade de concretizá-la por não saber quem ou qual lugar procurar. Também já ouvi o mesmo sentimento de pessoas próximas e que por muitas vezes já deixaram de doar pelo mesmo motivo. Portanto, pensando nisso, a proposta deste projeto foi a criação de uma API Rest (?) onde podem ser cadastrados salões de beleza que tenham parceria com essas ONGs e/ou hospitais, esses salões também podem ter suas informações alteradas e podem ser procurados e listados para o/a/e usuário/usuária/usuárie na hora da pesquisa. Por enquanto, ainda é restrito para a região de Recife mas com intenção de aumentar. 
+
+O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do bootcamp da turma On14 de programação back-end da :purple_heart:{reprograma}:purple_heart: e foi feito com muito carinho. 
 
 
 <br>
