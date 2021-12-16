@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p align="center">Projeto Final {Reprograma}<p>
+    <p align="center">Projeto Final {Reprograma} - Turma ON14 - API: Madeixa-Aqui Salão Solidário <p>
 </h1>
 <p align="center">
 <img src="./imagem_projeto/madeixa-aqui.png" width="50%" height="50%"/>
@@ -31,7 +31,7 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 
 
 ## - Objetivo
-> > Parceria entre salões de beleza e instituições que produzam perucas com cabelos doados para mulheres que passaram perda de cabelo devivo ao câncer de mama.
+- [X] Parceria entre salões de beleza e instituições que produzam perucas com cabelos doados para mulheres que passaram perda de cabelo devivo ao câncer de mama.
 <br>
 
 <br>
@@ -42,10 +42,7 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 - [X] Localizar salões em parcerias com ONGs e/ou hospitais
 - [X] Atualizar cadastros dos salões 
 - [X] Deletar salões que não tenham parcerias
-- [X] Cadastrar salões de beleza que cortam cabelos para doação
-- [X] Cadastrar ONGs que produzem perucas para mulheres com câncer
-- [X] Aumentar a facilidade de pessoas que querem cortar e doar o próprio cabelo
-- [X] Aumentar a confiança da cliente que está disposta a esse tipo de serviço, garantindo que o produto chegará em quem precisa
+
 <br>
 
 ## - Tecnologias utilizadas nesse projeto
@@ -79,7 +76,7 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 
 <br>
 
-## - Acessando as rotas dos salões de beleza pelos CRUD do projeto:
+## - Acessando as rotas dos salões de beleza:
 
 | Função | Método | Rota |
 |---------|--------|------|
