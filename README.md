@@ -21,24 +21,21 @@ O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do boot
 
 <br>
 
-
-
-
 <br>
 
-
 ## - Objetivo
-- [X] Parceria entre salões de beleza e instituições que produzam perucas com cabelos doados para mulheres que passaram perda de cabelo devivo ao câncer de mama.
+
+- :chart: Parceria entre salões de beleza e instituições que produzam perucas e/ou apliques com cabelos doados após o corte para mulheres que passaram perda de cabelo devivo ao ratamento contra o câncer de mama.
 <br>
 
 <br>
 
 ## - Funcionalidades
-- [X] Cadastrar salões que tenham parcerias com ONGs 
-- [X] Cadastrar salões que tenham parcerias com hospitais
-- [X] Localizar salões em parcerias com ONGs e/ou hospitais
-- [X] Atualizar cadastros dos salões 
-- [X] Deletar salões que não tenham parcerias
+- :chart: Cadastrar salões que tenham parcerias com ONGs 
+- :chart: Cadastrar salões que tenham parcerias com hospitais
+- :chart: Localizar salões em parcerias com ONGs e/ou hospitais
+- :chart: Atualizar cadastros dos salões 
+- :chart: Deletar salões que não tenham parcerias
 
 <br>
 
