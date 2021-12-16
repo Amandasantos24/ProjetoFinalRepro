@@ -31,7 +31,7 @@ O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do boot
 <br>
 
 ## - Funcionalidades
-- :chart: Cadastrar salões que tenham parcerias com ONGs 
+ :chart: Cadastrar salões que tenham parcerias com ONGs 
 - :chart: Cadastrar salões que tenham parcerias com hospitais
 - :chart: Localizar salões em parcerias com ONGs e/ou hospitais
 - :chart: Atualizar cadastros dos salões 
