@@ -9,7 +9,7 @@ const salaoDeBelezaRoutes = require("./routes/salaoDeBelezaRoutes")
 const salaoAutenRoutes = require("./routes/salaoAutenRoutes");
 
 const app = express()
-
+database.connect()
 dotenv.config()
 app.use(cors())
 app.use(express.json())
@@ -17,13 +17,5 @@ app.use(express.json())
 app.use("/salaoDeBeleza", salaoDeBelezaRoutes)
 app.use("/salaoDeBeleza", salaoAutenRoutes);
 
-
-
-
-
-
-
-
-database.connect()
 
 module.exports = app

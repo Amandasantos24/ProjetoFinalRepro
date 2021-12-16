@@ -14,11 +14,11 @@
 - Este projeto é um trabalho final para conclusão do bootcamp da {reprograma} para formação em programação back-end. Ele surgiu a partir do meu grande interesse pela área da estética, principalmente quando é sobre cabelo.
 E sabendo que o cabelo é uma parte da nossa identidade visual e da nossa personalidade, pensei em juntar o que me agrada com uma intenção de ajudar outras mulheres.
 Baseado nas minhas experiências de ir em salões de beleza para cortar o meu cabelo e muitas vezes querer doa-lo para 
--falar sobre querer doar o cabelo
--falar sobre amigas que não doam o cabelo
--falar sobre aproveitar
--falar sobre o cancer de mama e mulheres que perdem o cabelo
--não ver muito isso em recife
+- falar sobre querer doar o cabelo
+- falar sobre amigas que não doam o cabelo
+- falar sobre aproveitar
+- falar sobre o cancer de mama e mulheres que perdem o cabelo
+- não ver muito isso em recife
 - juntar salão e hospitais
 
 
@@ -37,15 +37,15 @@ Baseado nas minhas experiências de ir em salões de beleza para cortar o meu ca
 <br>
 
 ## - Funcionalidades
-[X] Cadastrar salões que tenham parcerias com ONGs e
-[X] Cadastrar salões que tenham parcerias com hospitais
-[X] Localizar salões em parcerias com ONGs e/ou hospitais
-[X] Atualizar cadastros dos salões 
-[X] Deletar salões que não tenham parcerias
-[X] Cadastrar salões de beleza que cortam cabelos para doação
-[X] Cadastrar ONGs que produzem perucas para mulheres com câncer
-[X] Aumentar a facilidade de pessoas que querem cortar e doar o próprio cabelo
-[X] Aumentar a confiança da cliente que está disposta a esse tipo de serviço, garantindo que o produto chegará em quem precisa
+- [X] Cadastrar salões que tenham parcerias com ONGs 
+- [X] Cadastrar salões que tenham parcerias com hospitais
+- [X] Localizar salões em parcerias com ONGs e/ou hospitais
+- [X] Atualizar cadastros dos salões 
+- [X] Deletar salões que não tenham parcerias
+- [X] Cadastrar salões de beleza que cortam cabelos para doação
+- [X] Cadastrar ONGs que produzem perucas para mulheres com câncer
+- [X] Aumentar a facilidade de pessoas que querem cortar e doar o próprio cabelo
+- [X] Aumentar a confiança da cliente que está disposta a esse tipo de serviço, garantindo que o produto chegará em quem precisa
 <br>
 
 ## - Tecnologias utilizadas nesse projeto

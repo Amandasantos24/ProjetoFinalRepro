@@ -126,7 +126,7 @@ const criarSalao = async (req, res) => {
         return res.status(406).json({
           mensagem: "Por favor informe um número de telefone válido",
           //detalhar posteriormente essa parte
-          mensagem_exemplo: "(xx) xxxxx-xxxx"
+          mensagem_exemplo: "(xx) xxxx-xxxx"
         })
       }
 
@@ -152,7 +152,7 @@ const criarSalao = async (req, res) => {
 
       if(novoSalao.tem_parceria_com_hospital == false && novoSalao.tem_parceria_com_ong == false) {
           return res.status(406).json({
-            mensagem: "Só podem cadastros salões que realizam doações!"
+            mensagem: "Só podem ser cadastros salões que realizam doações!"
           })
 
       }
