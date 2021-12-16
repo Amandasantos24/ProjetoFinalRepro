@@ -25,17 +25,17 @@ O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do boot
 
 ## - Objetivo
 
-- :chart: Parceria entre salões de beleza e instituições que produzam perucas e/ou apliques com cabelos doados após o corte para mulheres que passaram perda de cabelo devivo ao ratamento contra o câncer de mama.
+Parceria entre salões de beleza e instituições que produzam perucas e/ou apliques com cabelos doados após o corte para mulheres que passaram perda de cabelo devivo ao ratamento contra o câncer de mama.
 <br>
 
 <br>
 
 ## - Funcionalidades
- :chart: Cadastrar salões que tenham parcerias com ONGs 
-- :chart: Cadastrar salões que tenham parcerias com hospitais
-- :chart: Localizar salões em parcerias com ONGs e/ou hospitais
-- :chart: Atualizar cadastros dos salões 
-- :chart: Deletar salões que não tenham parcerias
+:chart: Cadastrar salões que tenham parcerias com ONGs 
+:chart: Cadastrar salões que tenham parcerias com hospitais
+:chart: Localizar salões em parcerias com ONGs e/ou hospitais
+:chart: Atualizar cadastros dos salões 
+:chart: Deletar salões que não tenham parcerias
 
 <br>
 
@@ -43,15 +43,15 @@ O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do boot
 
 <br>
 
-- [JavaScript](https://www.javascript.com/)
-- [Git/Github](https://github.com/)
-- [Node.js](https://nodejs.org/en/)
-- [MongoDb](https://www.mongodb.com/)
-- [MongoCompass](https://www.mongodb.com/pt-br/products/compass)
-- [MongoDBatlas](https://www.mongodb.com/cloud/atlas)
-- [Postman](https://www.postman.com/)
-- [Vscode](https://code.visualstudio.com/)
-- [heroku](https://dashboard.heroku.com/apps)  
+:link: [JavaScript](https://www.javascript.com/)
+:link: [Git/Github](https://github.com/)
+:link: [Node.js](https://nodejs.org/en/)
+:link: [MongoDb](https://www.mongodb.com/)
+:link: [MongoCompass](https://www.mongodb.com/pt-br/products/compass)
+:link: [MongoDBatlas](https://www.mongodb.com/cloud/atlas)
+:link: [Postman](https://www.postman.com/)
+:link: [Vscode](https://code.visualstudio.com/)
+:link: [heroku](https://dashboard.heroku.com/apps)  
 
 
 <br>
