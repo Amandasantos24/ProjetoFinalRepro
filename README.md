@@ -205,14 +205,11 @@ meses melhores do que o esperado, em especial a [Leticia Desiderio](https://gith
 :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
 
 <h1 align="center">
-:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
-  <img src="./imagem_projeto/amanda.png" width="60%" height="60%">
-  :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
+  <img src="./imagem_projeto/amanda.png" width="30%" height="30%">
 <p align="center"><p>
-:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
 </h1>
 
-
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
 <br>
 
 
