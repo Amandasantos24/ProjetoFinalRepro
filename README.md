@@ -94,7 +94,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota GET no Heroku
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_heroku.gif" width="600">
+  <img src="./imagem_projeto/gif_heroku.gif" width="700">
 <p align="center"><p>
 </h1>
 
@@ -105,7 +105,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota GET no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_get.gif" width="600">
+  <img src="./imagem_projeto/gif_postman_get.gif" width="700">
 <p align="center"><p>
 </h1>
 
@@ -116,7 +116,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota POST no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_post.gif" width="600">
+  <img src="./imagem_projeto/gif_postman_post.gif" width="700">
 <p align="center"><p>
 </h1>
 
@@ -127,7 +127,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota PUT no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_put.gif" width="600">
+  <img src="./imagem_projeto/gif_postman_put.gif" width="700">
 <p align="center"><p>
 </h1>
 
@@ -138,7 +138,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota DEL no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_del.gif" width="600">
+  <img src="./imagem_projeto/gif_postman_del.gif" width="700">
 <p align="center"><p>
 </h1>
 
@@ -202,14 +202,14 @@ meses melhores do que o esperado, em especial a [Leticia Desiderio](https://gith
 ## - :woman: Autora
 
 <br>
-:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
+        :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:>
 
 <h1 align="center">
   <img src="./imagem_projeto/amanda.png" width="30%" height="30%">
 <p align="center"><p>
 </h1>
 
-:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+          :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
 <br>
 
 
