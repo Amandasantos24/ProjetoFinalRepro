@@ -24,8 +24,8 @@ O "Madeixa-aqui: salão solidário" é o projeto final para a conclusão do boot
 
 ## - :white_circle: Referências
 
-[SBP](http://www.sbp.org.br/)
-[INCA](https://www.inca.gov.br/)
+- [SBP](http://www.sbp.org.br/)
+- [INCA](https://www.inca.gov.br/)
 
 <br>
 
@@ -133,9 +133,9 @@ Neste projeto aprendemos a criar uma API com um CRUD, que são quatro funções 
 
 ## - Redes Sociais
 
-- GitHub(https://github.com/Amandasantos24)
-- LinkedIn(www.linkedin.com/in/amandasantos24)
-- Instagram(https://www.instagram.com/amandaaleaal/)
+- [GitHub](https://github.com/Amandasantos24)
+- [LinkedIn](www.linkedin.com/in/amandasantos24)
+- [Instagram](https://www.instagram.com/amandaaleaal/)
 
 <br>
 
