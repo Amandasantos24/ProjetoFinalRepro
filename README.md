@@ -199,7 +199,7 @@ meses melhores do que o esperado, em especial a [Leticia Desiderio](https://gith
 
 <br>
 
-## - :woman: Autora
+## - :sparkles: :woman: A autora :woman: :sparkles:
 
 <br>
 
@@ -217,9 +217,7 @@ Sou formada em Ciências Biológicas pela Universidade Federal Rural de Pernambu
 
 transição de carreira para a área de T. I. onde me identifiquei com a programação back-end e nesse caminho
 
-encontrei a reprograma e consegui entrar para o bootcamp em Ago/21 e consegui crescer e aprender mais sobre o mundo
-
-do back-end e gostar ainda mais.
+encontrei a reprograma e consegui entrar para o bootcamp em Ago/21 e consegui crescer e aprender mais sobre o mundo do back-end e gostar ainda mais.
 
 
 <br>
