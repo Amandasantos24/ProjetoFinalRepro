@@ -1,9 +1,9 @@
 <h1 align="center">
     <br>
-    <p align="center">Projeto Final {Reprograma} - Turma ON14 - API: Madeixa-Aqui Salão Solidário <p>
+    <p align="center"> :star2: Projeto Final {Reprograma} - Turma ON14 - API: Madeixa-Aqui Salão Solidário :star2: <p>
 </h1>
 <p align="center">
-<img src="./imagem_projeto/madeixa-aqui.png" width="50%" height="50%"/>
+<img src="./imagem_projeto/madeixa-aqui.png" width="80%" height="80%"/>
 </p>
 <br>
 
@@ -94,7 +94,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota GET no Heroku
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_heroku.gif" width="400">
+  <img src="./imagem_projeto/gif_heroku.gif" width="600">
 <p align="center"><p>
 </h1>
 
@@ -105,7 +105,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota GET no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_get.gif" width="400">
+  <img src="./imagem_projeto/gif_postman_get.gif" width="600">
 <p align="center"><p>
 </h1>
 
@@ -116,7 +116,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota POST no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_post.gif" width="400">
+  <img src="./imagem_projeto/gif_postman_post.gif" width="600">
 <p align="center"><p>
 </h1>
 
@@ -127,7 +127,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota PUT no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_put.gif" width="400">
+  <img src="./imagem_projeto/gif_postman_put.gif" width="600">
 <p align="center"><p>
 </h1>
 
@@ -138,7 +138,7 @@ Parceria entre salões de beleza e instituições que produzam perucas e/ou apli
 ## - :arrows_clockwise: Rota DEL no Postman
 
 <h1 align="center">
-  <img src="./imagem_projeto/gif_postman_del.gif" width="400">
+  <img src="./imagem_projeto/gif_postman_del.gif" width="600">
 <p align="center"><p>
 </h1>
 
@@ -175,13 +175,13 @@ Neste projeto aprendemos a criar uma API com um CRUD, que são quatro funções 
 
 ## - :sparkles: :heart: Agradecimentos :sparkles: :heart:
 
-Este projeto eu dedico e agradeço a {reprograma :purple_heart:} pela oportunidade de poder fazer parte dessa 
+Este projeto eu dedico e agradeço a [{reprograma :purple_heart:}](https://reprograma.com.br/) pela oportunidade de poder fazer parte dessa 
 
 comunidade incrível de aprendizado não só de código, mas de dia-a-dia, de ajuda, de crescimento profissional e 
 
 pessoal. À todas as minhas {reprogramadas - backend :purple_heart:} minhas amigas da turma On-14 que fizeram desses 4 
 
-meses melhores do que o esperado, em especial a Leticia Desiderio e Xênia Barros. 
+meses melhores do que o esperado, em especial a [Leticia Desiderio](https://github.com/letidesi) e [Xênia Barros](https://github.com/xeniabarreto) e a todas as professoras e monitoras que fizeram o ambiente de estudo ser exemplo e inspiração para a vida. 
 
 ## Gratidão !! :sparkles: :heart:
 
@@ -195,8 +195,9 @@ meses melhores do que o esperado, em especial a Leticia Desiderio e Xênia Barro
 - [Hospital do Câncer de Pernambuco](https://www.hcp.org.br/index.php/doacoes-cabelo)
 - [IMIP](http://www1.imip.org.br/imip/home/index.html)
 - [GAC - Pernambuco](http://www.gac.org.br/#)
-- 
 
+
+<br>
 
 ## - :woman: Autora
 
@@ -204,12 +205,14 @@ meses melhores do que o esperado, em especial a Leticia Desiderio e Xênia Barro
 :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
 
 <h1 align="center">
-  <img src="./imagem_projeto/amanda.png" width="400">
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
+  <img src="./imagem_projeto/amanda.png" width="60%" height="60%">
+  :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
 <p align="center"><p>
 :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
 </h1>
 
-:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+
 <br>
 
 
