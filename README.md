@@ -97,42 +97,64 @@ Neste projeto aprendemos a criar uma API com um CRUD, que são quatro funções 
 
 <br>
 
-## - Melhorias :warning: e propostas posteriores :eight_spoked_asterisk: para o projeto
+## - Melhorias :warning: / Propostas posteriores :eight_spoked_asterisk: 
 
-- :warning: procurar por bairro;
-- :warning: estender para outros locais;
-- :warning: criar um cartão de fidelidade para mais clientes terem acessos;
-- :warning: criar uma API para salões procurarem clientes e não só clientes procurarem salões;
-- :warning: criar uma API para salões procurarem clientes e não só clientes procurarem salões
-- :eight_spoked_asterisk: tornar um projeto também comercial;
-- :eight_spoked_asterisk: fazer parcerias com empresas grandes beneficiando o cliente, o salão e o orgão que irá receber;
-- :eight_spoked_asterisk: doar uma parte para hospitais e ou instituições de caridade;
+- :warning: Aumentar o alcance por local (mais cidades, incluir estados, outros estados e etc);
 
-<br>
+- :warning: Ter uma rota para poder localizar o estabelecimento por bairro, posteriormente por cidade/estado/região;
 
-<br>
+- :warning: Criar um cartão de fidelidade onde a cada quantidade X que ele for ao salão e corte o cabelo para doação ele ganhe algum produto, incentivando mais pessoas a voltarem e doarem cada vez mais;
 
-## - Agradecimentos
+- :warning: Desenvolver uma API voltada para os salões captarem os clientes; 
 
-- falar de leticia
-- falar de xenia
-- falar de reprograma
-- falar do grupo
+- :eight_spoked_asterisk: Tornar este projeto também comercial, podendo gerar lucro, para que uma parte desse lucro também possa ser doada para outras instituições voltadas para ajuda de mulheres com câncer de mama;
+
+- :eight_spoked_asterisk: Poder fazer propostas de ofertas com empresas maiores com o intuito de beneficiar o cliente que for utilizar dos serviços dos salões, os próprios salões e as instutições que irão receber os cabelos doados.
+
 
 <br>
 
 <br>
 
-## - Autora
+## - :sparkles: :heart: Agradecimentos :sparkles: :heart:
 
-- falar sobre mim 
+Este projeto eu dedico e agradeço a {reprograma :purple_heart:} pela oportunidade de poder fazer parte dessa 
+
+comunidade incrível de aprendizado não só de código, mas de dia-a-dia, de ajuda, de crescimento profissional e 
+
+pessoal. À todas as minhas {reprogramadas - backend :purple_heart:} minhas amigas da turma On-14 que fizeram desses 4 
+
+meses melhores do que o esperado, em especial a Leticia Desiderio e Xênia Barros. 
+
+## Gratidão !! :sparkles: :heart:
 
 <br>
 
 <br>
 
-## - Redes Sociais
+## - :woman: Autora
 
+
+
+Olá, meu nome é Amanda Santos. Sou de Recife - Pernambuco - Brasil, onde nasci e moro até hoje. 
+
+Sou formada em Ciências Biológicas pela Universidade Federal Rural de Pernambuco e estou em processo de
+
+transição de carreira para a área de T. I. onde me identifiquei com a programação back-end e nesse caminho
+
+encontrei a reprograma e consegui entrar para o bootcamp em Ago/21 e consegui crescer e aprender mais sobre o mundo
+
+do back-end e gostar ainda mais.
+
+
+<br>
+
+<br>
+
+## - :iphone: :computer: Contato e Redes Sociais
+
+- :iphone: Telefone: (81) 98626-0170
+- [Gmail](amandamsilvasantos96@gmail.com)
 - [GitHub](https://github.com/Amandasantos24)
 - [LinkedIn](www.linkedin.com/in/amandasantos24)
 - [Instagram](https://www.instagram.com/amandaaleaal/)
