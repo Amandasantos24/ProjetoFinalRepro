@@ -202,14 +202,12 @@ meses melhores do que o esperado, em especial a [Leticia Desiderio](https://gith
 ## - :woman: Autora
 
 <br>
-        :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:>
 
 <h1 align="center">
   <img src="./imagem_projeto/amanda.png" width="30%" height="30%">
 <p align="center"><p>
 </h1>
 
-          :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
 <br>
 
 
