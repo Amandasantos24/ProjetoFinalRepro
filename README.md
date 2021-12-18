@@ -3,7 +3,7 @@
     <p align="center"> :star2: Projeto Final {Reprograma} - Turma ON14 - API: Madeixa-Aqui Salão Solidário :star2: <p>
 </h1>
 <p align="center">
-<img src="./imagem_projeto/madeixa-aqui.png" width="80%" height="80%"/>
+<img src="./imagem_projeto/madeixa-aqui.png" width="60%" height="60%"/>
 </p>
 <br>
 
