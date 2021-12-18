@@ -6,7 +6,6 @@ const bcrypt = require("bcrypt");
 
 
 
-//GET
 const listarTodosSaloes = async (req, res) => {
     try {
       const saloesEncontrados = await SalaoDeBelezaSchema.find();
@@ -22,7 +21,6 @@ const listarTodosSaloes = async (req, res) => {
   };
   
 
-//POST
 const criarSalao = async (req, res) => {
     try {
       const novoSalao = new SalaoDeBelezaSchema({
@@ -61,7 +59,6 @@ const criarSalao = async (req, res) => {
       if(novoSalao.CNPJ.length > 18 || novoSalao.CNPJ.length < 18) {
         return res.status(406).json({
           mensagem: "Por favor informe o CNPJ válido",
-          //detalhar posteriormente essa parte
           mensagem_exemplo: "xx.xxx.xxx/xxxx-xx"
         })
       }
@@ -95,7 +92,6 @@ const criarSalao = async (req, res) => {
       if(novoSalao.numero.length > 4) {
         return res.status(406).json({
           mensagem: "Por favor informe um número válido!",
-          //detalhar posteriormente essa parte
           mensagem_exemplo: "Só são aceitos no máximo 4 números"
         })
       }
@@ -110,7 +106,6 @@ const criarSalao = async (req, res) => {
       if(novoSalao.CEP.length > 9 || novoSalao.CEP.length < 9) {
         return res.status(406).json({
           mensagem: "Por favor informe um CEP válido",
-          //detalhar posteriormente essa parte
           mensagem_exemplo: "xxxxx-xxx" 
         })
       }
@@ -125,7 +120,6 @@ const criarSalao = async (req, res) => {
       if(novoSalao.telefone.length > 14 || novoSalao.telefone.length < 14) {
         return res.status(406).json({
           mensagem: "Por favor informe um número de telefone válido",
-          //detalhar posteriormente essa parte
           mensagem_exemplo: "(xx) xxxx-xxxx"
         })
       }
@@ -180,7 +174,6 @@ const criarSalao = async (req, res) => {
     });
     if (salaoDeBelezaExiste) {
       return res.status(406).json({
-        //ajeitar essa mensagem depois
         mensagem:"Esse CNPJ já foi cadastrado",
       });
     }
@@ -192,7 +185,6 @@ const criarSalao = async (req, res) => {
     });
     if (salao_De_Beleza_Existe) {
       return res.status(406).json({
-        //ajeitar essa mensagem depois
         mensagem:"Esse email já foi cadastrado",
       });
     }
@@ -219,8 +211,6 @@ const criarSalao = async (req, res) => {
   };
 
 
-  //PUT
-
   const atualizarSalao = async (req, res) => {
     try {
       const salaoEncontrado = await SalaoDeBelezaSchema.findById(req.params.id);
@@ -243,7 +233,6 @@ const criarSalao = async (req, res) => {
     if(salaoEncontrado.numero.length > 4) {
       return res.status(406).json({
         mensagem: "Por favor informe um número válido!",
-        //detalhar posteriormente essa parte
         mensagem_exemplo: "Só são aceitos no máximo 4 números"
       })
     }
@@ -251,7 +240,6 @@ const criarSalao = async (req, res) => {
     if(salaoEncontrado.CNPJ.length > 18 || salaoEncontrado.CNPJ.length < 18) {
       return res.status(406).json({
         mensagem: "Por favor informe o CNPJ válido",
-        //detalhar posteriormente essa parte
         mensagem_exemplo: "xx.xxx.xxx/xxxx-xx"
       })
     }
@@ -259,7 +247,6 @@ const criarSalao = async (req, res) => {
     if(salaoEncontrado.CEP.length > 9 || salaoEncontrado.CEP.length < 9) {
       return res.status(406).json({
         mensagem: "Por favor informe um CEP válido",
-        //detalhar posteriormente essa parte
         mensagem_exemplo: "xxxxx-xxx" 
       })
     }
@@ -267,7 +254,6 @@ const criarSalao = async (req, res) => {
     if(salaoEncontrado.telefone.length > 14 || salaoEncontrado.telefone.length < 14) {
       return res.status(406).json({
         mensagem: "Por favor informe um número de telefone válido",
-        //detalhar posteriormente essa parte
         mensagem_exemplo: "(xx) xxxxx-xxxx"
       })
     }
@@ -277,7 +263,6 @@ const criarSalao = async (req, res) => {
         console.log(salaoEncontrado.tem_parceria_com_hospital)
         console.log(salaoEncontrado.nome_hospital)
         return res.status(406).json({
-          //mudar essa mensagem depois
           mensagem: "Se não tem parceria com hospital não informe nome do hospital!"
         })
       }
@@ -309,7 +294,6 @@ const criarSalao = async (req, res) => {
 
 
 
-//DELETE
 const excluirSalao = async (req, res) =>{
     try {
         const salaoEncontrado = await SalaoDeBelezaSchema.findById(req.params.id)
