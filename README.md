@@ -171,6 +171,18 @@ Neste projeto aprendemos a criar uma API com um CRUD, que são quatro funções 
 
 <br>
 
+## - :hospital: :house: Hospitais que recebem cabelos para doação em Recife - Pernambuco
+<br>
+
+- [Hospital do Câncer de Pernambuco](https://www.hcp.org.br/index.php/doacoes-cabelo)
+- [IMIP](http://www1.imip.org.br/imip/home/index.html)
+- [GAC - Pernambuco](http://www.gac.org.br/#)
+
+
+<br>
+
+<br>
+
 ## - :sparkles: :heart: Agradecimentos :sparkles: :heart:
 
 Este projeto eu dedico e agradeço a [{reprograma :purple_heart:}](https://reprograma.com.br/) pela oportunidade de poder fazer parte dessa 
@@ -182,18 +194,6 @@ pessoal. À todas as minhas {reprogramadas - backend :purple_heart:} minhas amig
 meses melhores do que o esperado, em especial a [Leticia Desiderio](https://github.com/letidesi) e [Xênia Barros](https://github.com/xeniabarreto) e a todas as professoras e monitoras que fizeram o ambiente de estudo ser exemplo e inspiração para a vida. 
 
 ## Gratidão !! :sparkles: :heart:
-
-<br>
-
-<br>
-
-## - :hospital: :house: Hospitais que recebem cabelos para doação em Recife - Pernambuco
-<br>
-
-- [Hospital do Câncer de Pernambuco](https://www.hcp.org.br/index.php/doacoes-cabelo)
-- [IMIP](http://www1.imip.org.br/imip/home/index.html)
-- [GAC - Pernambuco](http://www.gac.org.br/#)
-
 
 <br>
 
